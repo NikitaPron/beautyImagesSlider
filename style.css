@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slides {
+  margin: 0 10px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.slide {
+  height: 80vh;
+  display: block;
+  border-radius: 15px;
+  cursor: pointer;
+  flex: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.active {
+  flex: 8;
+}
