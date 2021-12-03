@@ -1,4 +1,4 @@
-import './style.css';
+
 let images = [
   'https://klike.net/uploads/posts/2019-09/1568528430_2.jpg',
   'https://klike.net/uploads/posts/2019-09/1568528452_22.jpg',
