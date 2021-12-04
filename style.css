@@ -29,7 +29,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: all 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 .active {
