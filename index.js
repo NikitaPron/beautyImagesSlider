@@ -23,11 +23,3 @@ function clickHandler() {
   });
   this.classList.add('active');
 }
-
-fetch('http://f0655559.xsph.ru/')
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    console.log(data);
-  });
