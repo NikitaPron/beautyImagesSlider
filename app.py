@@ -253,12 +253,6 @@ with col_main:
                         st.session_state.timer_running = True
                         st.rerun()
             
-            with timer_cols[1]:
-                if task_container.button("🔄 Сброс таймера", type="secondary", use_container_width=True, key="btn_reset_timer"):
-                    st.session_state.timer_start = time.time()
-                    st.session_state.timer_running = True
-                    st.session_state.elapsed_time = 0
-                    st.rerun()
             
             # Кнопка выполнения
             if task_container.button("✅ ВЫПОЛНЕНО (И след. задача)", type="primary", use_container_width=True, key="btn_complete"):
